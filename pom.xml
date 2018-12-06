@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wenhao.microservice</groupId>
-    <artifactId>microservice-simple-custom-movie</artifactId>
+    <artifactId>microservice-custom-movie-feign</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -56,6 +56,12 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
