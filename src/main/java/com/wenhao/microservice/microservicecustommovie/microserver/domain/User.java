@@ -1,4 +1,4 @@
-package com.wenhao.microservice.microservicecustommovie.domain;
+package com.wenhao.microservice.microservicecustommovie.microserver.domain;
 
 
 import javax.persistence.*;

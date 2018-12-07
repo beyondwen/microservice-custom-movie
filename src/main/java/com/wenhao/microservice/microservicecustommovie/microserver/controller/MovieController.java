@@ -1,8 +1,8 @@
-package com.wenhao.microservice.microservicecustommovie.controller;
+package com.wenhao.microservice.microservicecustommovie.microserver.controller;
 
 
-import com.wenhao.microservice.microservicecustommovie.dao.UserFeignClient;
-import com.wenhao.microservice.microservicecustommovie.domain.User;
+import com.wenhao.microservice.microservicecustommovie.microserver.dao.UserFeignClient;
+import com.wenhao.microservice.microservicecustommovie.microserver.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
